@@ -1,0 +1,92 @@
+input::placeholder {
+  color: red;
+}
+.center {
+  overflow: auto;
+  white-space: nowrap;
+	padding: 1px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #333;
+	color: white;
+}
+
+header{
+  font-size: 30px;
+}
+.form {
+	width: 250px;
+	margin:10px auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #f3f3f3;
+	color: #666;
+	border-radius: 25px; 
+}
+
+/* ------------------------------------------------------------ NAVBAR START ------------------------------------------------------------ */ 
+     ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+/* ------------------------------------------------------------ NAVBAR END------------------------------------------------------------ */
+/* I NEED LIFT BUTTON */
+.btn1 {
+  background: #f43030;
+  border-radius: 25px;
+  font-family: helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+
+}
+
+.btn1:hover {
+  background: #b81818;
+}
+/* I HAVE LIFT BUTTON */
+.btn2 {
+  background: #90d9e5;
+  border-radius: 25px;
+  font-family: helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+
+}
+
+.btn2:hover {
+  background: #1d8ea1;
+}
+
+.container{ width:100%; }
+
+.align-left{ float: left;width:50%; }
+.align-right{float: right;width:50%}
+

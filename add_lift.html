@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Trippie</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+			<link rel="shortcut icon" type="image/png" href="images/car.ico"/>
+
+			<style type="text/css">
+     ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+			</style>
+			<title>User Account</title>
+			<div>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="manage_user.html">My Account</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+		</head>
+
+		<body>
+			<div>
+
+																<!-- LIFT NEEDED FORM -->
+<form class="form" action="php/add_lift.php" method="post">
+	<p>Name:<br><input type="text" name="name" id="name" required placeholder="*"></p>
+
+	<p>Email:<br><input type="email" name="email" id="email" required placeholder="*"></p>
+
+	<p>Telephone:<br><input type="tel" name="telephone" id="telephone" required placeholder="*"></p>
+
+	<p>From:<br><input type="text" name="from" id="from" required placeholder="*"></p>
+
+	<p>To:<br><input type="text" name="to" id="to" required placeholder="*"></p>
+	<p>When:<br><input type="datetime-local" name="datetime" required></p>
+	<p>Space for:<br></p>
+		<select name="space" required>
+		<br>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+<br>
+<br>
+<button type="submit" class="btn2">Submit</button>
+<button onclick="window.location.href='index.html'" class="btn1" >Go back</button>
+																<!-- LIFT NEEDED FORM -->
+</form>
+</div>
+</body>
+<footer>
+</footer>
+</html>
